@@ -1,4 +1,5 @@
-/** Add your relevant code here for the issue to reproduce */
+import { inter } from "./layout";
+
 export default function Home() {
-  return null;
+  return <div>{inter.style.fontFamily}</div>;
 }
